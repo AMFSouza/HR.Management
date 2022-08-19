@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HR.Management.Application.Persistence.Contracts
 {
-    internal interface ILeaveTypeRepository : IGenericRepository<LeaveType>
+    public interface ILeaveTypeRepository : IGenericRepository<LeaveType>
     {
     }
 }
